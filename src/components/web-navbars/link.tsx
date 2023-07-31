@@ -22,7 +22,7 @@ const Link:React.FC<Props> = ({
 
         <div className="grid md:grid-cols-4 grid-cols-2 ">
           {
-            link.cards?.map((card:CardProps)=>(
+            link.cards?.map((card:any)=>(
               <Card card={card} key={card.card_title} />
             ))
           }
