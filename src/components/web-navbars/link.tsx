@@ -4,7 +4,7 @@ import Card from './card'
 import { CardProps, LinkProps } from '../../../type'
 
 type Props = {
-    link:any
+    link:LinkProps
 }
 
 const Link:React.FC<Props> = ({
@@ -12,7 +12,7 @@ const Link:React.FC<Props> = ({
 }) => {
     
   return (
-    <div className='w-full'>
+    <div className='w-full' id={link.general_title}>
         <div className='flex gap-2 items-center border-neutral-300 border-b-[1px] p-2 my-2'>
           <Image src={link.icon} alt='life' height={28} width={28}/>
           <p className='text-lg'>
@@ -20,9 +20,9 @@ const Link:React.FC<Props> = ({
           </p>
         </div>
 
-        <div className="grid md:grid-cols-4 grid-cols-2 ">
+        <div className="grid md:grid-cols-4 grid-cols-2 xl:grid-cols-5">
           {
-            link.cards?.map((card: any) => (
+            link.cards?.map((card: CardProps) => (
               <Card card={card} key={card.card_title} />
             ))
           }

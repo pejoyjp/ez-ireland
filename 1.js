@@ -101,6 +101,14 @@ const c = {
             "tags":["中超","生活","购物"],
             "img":"/rongxinghang.png",
             "url":"https://www.353go.com/"
+        },
+        {
+            "card_title":"嘉年华(高威)",
+            "card_desc":"高威的中国超市，累计到达30欧可以送货上门。",
+            "tags":["中超","生活","购物"],
+            "img":"/rongxinghang.png",
+            "url":"https://www.carnivalmarket.ie/"
+            
         }
     ]
 }
@@ -164,6 +172,109 @@ const f = {
        
     ]
 }
+
+
+const g = {
+    "general_title":"银行办理",
+    "icon":"/icon/post.png",
+    "cards":[
+        {
+            "card_title":"AIB",
+            "card_desc":"二巨头之一,可以选择二者中的任何一个进行办理",
+            "tags":["银行","金融","AIB"],
+            "img":"/aib.png",
+            "url":"https://aib.ie/our-products/credit-cards"
+        },
+        {
+            "card_title":"BOI",
+            "card_desc":"二巨头之一,可以选择二者中的任何一个进行办理",
+            "tags":["银行","金融","BOI"],
+            "img":"/boi.png",
+            "url":"https://personalbanking.bankofireland.com/borrow/credit-cards/"
+           
+        },
+        {
+            "card_title":"Revolut",
+            "card_desc":"力推！！转账自由。可以进行欧元和外币之间的转换",
+            "tags":["银行","金融","Revolut"],
+            "img":"/revolut.png",
+            "url":"https://www.revolut.com/"
+           
+        },
+       
+    ]
+}
+
+const h = {
+    "general_title":"租房",
+    "icon":"/icon/post.png",
+    "cards":[
+        {
+            "card_title":"Daft",
+            "card_desc":"爱尔兰最大的租房买房网站,但是房源很紧张，而且骗子很多!不要先付款！",
+            "tags":["租房"],
+            "img":"/daft.png",
+            "url":"https://www.daft.ie/"
+        },
+        {
+            "card_title":"Hosting Power",
+            "card_desc":"爱尔兰本地的寄宿家庭网站.慎重选择寄宿家庭,很多人都住不长寄宿家庭",
+            "tags":["租房"],
+            "img":"/hosting_power.png",
+            "url":"https://hostingpower.ie/"
+           
+        },
+
+    ]
+}
+
+const hd = {
+    "general_title":"工作兼职",
+    "icon":"/icon/post.png",
+    "cards":[
+        {
+            "card_title":"Linked In",
+            "card_desc":"爱尔兰最大的租房买房网站,但是房源很紧张，而且骗子很多!不要先付款！",
+            "tags":["工作","全职"],
+            "img":"/linked_in.png",
+            "url":"https://www.linkedin.com/"
+        },
+        {
+            "card_title":"Indeed",
+            "card_desc":"爱尔兰本地的寄宿家庭网站.慎重选择寄宿家庭,很多人都住不长寄宿家庭",
+            "tags":["工作","全职"],
+            "img":"/indeed.png",
+            "url":"https://ie.indeed.com"
+           
+        },
+        {
+            "card_title":"麦当劳(学生兼职)",
+            "card_desc":"快餐行业的兼职门槛很低,即使英文不太好也可以轻松找到一份兼职",
+            "tags":["工作","兼职"],
+            "img":"/mc.png",
+            "url":"https://www.mcdonalds.com/ie/en-ie/careers.html"
+           
+        },
+        {
+            "card_title":"SuperMacs(学生兼职)",
+            "card_desc":"爱尔兰本地的一家汉堡店,一直有招人,轻松可以得到这份兼职",
+            "tags":["工作","兼职"],
+            "img":"/super_macs.png",
+            "url":"https://supermacs.ie/careers/"
+           
+        },
+
+    ]
+}
+
+
+
+租房
+
+
+
+
+
 
 // 快递  交通  购物 boots  中超 融兴行 亚洲行
     

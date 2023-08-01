@@ -10,7 +10,7 @@ type Props = {}
 const Feed = (props: Props) => {
   const { data, error, isLoading } = useSWR('/api/link', fetcher)
   return (
-    <div className='flex-auto md:ml-[150px]'>
+    <div className='flex-auto md:ml-[200px]'>
         <Search />
         <WebNavbars data={data}/>
     </div>
